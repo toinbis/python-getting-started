@@ -12,6 +12,9 @@ def nvp(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "nvp.html")
 
+def nvpfresh(request):
+    return render(request, "nvpfresh.html")
+
 
 def db(request):
 
